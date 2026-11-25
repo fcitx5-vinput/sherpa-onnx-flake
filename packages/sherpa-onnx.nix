@@ -22,13 +22,13 @@
 }:
 stdenv.mkDerivation {
   pname = "sherpa-onnx";
-  version = "2.0.1";
+  version = "2.0.3";
 
   src = fetchFromGitHub {
     owner = "k2-fsa";
     repo = "sherpa-onnx";
-    rev = "af2d8d81dbfa61c4cea4c568da78f3982edca005";
-    sha256 = "sha256-rcs6RFyQujOvm3pNuA8AxzwEluF5/Ei1XQowYaq+bGc=";
+    rev = "38016c6e0622e90bf417c35e8b47e0eb805af417";
+    sha256 = "sha256-KLiV4ea8jQbHGCPRKswseSOXTkOwlY1G5/YlhXqzs7M=";
   };
 
   nativeBuildInputs = [
